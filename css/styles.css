@@ -10,6 +10,10 @@ body {
     background-color: #dae2e4;
 }
 
+hr {
+    margin: 1rem 7%;
+}
+
 
 /* ---------- Navbar styles ----------- */
 
@@ -95,13 +99,50 @@ body {
 .profilePhotoContainer {
     width: 12rem;
     position: absolute;
-    background-color: #00c8ae;
+    background-color: #0a9488;
     border-radius: 100%;
-    padding: 0.2rem 0.5rem;
+    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
     transform: translate(10rem, -6rem);
 }
 
 .profilePhoto {
     width: 100%;
     border-radius: 100%;
+}
+
+.personalData {
+    font-family: "Nunito", sans-serif;
+    margin: 8rem 2rem 1rem 2rem;
+    display: flex;
+}
+
+.mainName {
+    text-align: center;
+    width: 32%;
+}
+
+.mainName h3 {
+    font-size: 150%;
+}
+
+.mainName h4 {
+    font-size: 120%;
+}
+
+.about {
+    width: 65%;
+}
+
+.about h4 {
+    font-size: 200%;
+    margin: 0 10%;
+}
+
+.aboutText {
+    margin: 0 10%;
+    font-size: 110%;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
