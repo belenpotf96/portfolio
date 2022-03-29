@@ -6,11 +6,16 @@
     padding: 0;
 }
 
+body {
+    background-color: #dae2e4;
+}
+
 
 /* ---------- Navbar styles ----------- */
 
 .navigation {
-    background-color: #0a9488;
+    background: #0a9488;
+    background: linear-gradient(126deg, #0a9488 60%, #079f92 61%, #0ead9f 67%, #0a9488 68%, #0a9488 71%, #0ead9f 72%, #14c4b5 75%, #0a9488 76%);
     padding: 0 5rem;
     display: flex;
     justify-content: space-between;
@@ -74,4 +79,29 @@
 .loginButton:active {
     box-shadow: 0px 0px 5px black;
     transition: 0ms;
+}
+
+
+/* ---------- Profile ----------- */
+
+.banner {
+    margin: 1% 2% 0rem 2%;
+}
+
+.bannerIMG {
+    width: 100%;
+}
+
+.profilePhotoContainer {
+    width: 12rem;
+    position: absolute;
+    background-color: #00c8ae;
+    border-radius: 100%;
+    padding: 0.2rem 0.5rem;
+    transform: translate(10rem, -6rem);
+}
+
+.profilePhoto {
+    width: 100%;
+    border-radius: 100%;
 }
