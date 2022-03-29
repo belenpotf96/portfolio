@@ -1,0 +1,77 @@
+/* ---------- Global styles ----------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------- Navbar styles ----------- */
+
+.navigation {
+    background-color: #0a9488;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LogoContainer {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    width: 10rem;
+}
+
+.IProgramText {
+    font-family: "Nunito", sans-serif;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.mediaAndLogin {
+    display: flex;
+    align-items: center;
+}
+
+.media {
+    display: flex;
+    list-style: none;
+}
+
+.mediaIcons {
+    color: aliceblue;
+    font-size: 1.7rem;
+    margin: 0 0.7rem;
+    transition: 200ms;
+}
+
+.mediaIcons:hover {
+    color: #ff7b00;
+}
+
+.loginButton {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border: solid;
+    border-color: #ff7b00;
+    transition: 200ms;
+    font-family: "Nunito", sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.loginButton:hover {
+    background-color: #ff7b00;
+    color: black;
+}
+
+.loginButton:active {
+    box-shadow: 0px 0px 5px black;
+    transition: 0ms;
+}
