@@ -12,8 +12,6 @@ function percentage(skillValue) {
     return 680 / 100 * skillValue;
 }
 
-console.log(percentage(skillValue));
-
 progressColor.style.cssText = `stroke-dasharray: ${percentage(skillValue) + 2000};`;
 
 progressTitle.innerHTML = progressData.skill;
