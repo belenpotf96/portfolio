@@ -253,7 +253,7 @@ hr {
 
 .progressMeter {
     position: absolute;
-    transform: rotateX(0deg);
+    transform: rotateZ(-90deg);
 }
 
 .progressColor {
@@ -261,7 +261,7 @@ hr {
     position: absolute;
     stroke: url(#GradientColor);
     stroke-width: 35px;
-    stroke-dasharray: 2680;
+    stroke-dasharray: 2240;
     stroke-dashoffset: 2000;
     animation: progressAnim 2000ms linear forwards;
 }
