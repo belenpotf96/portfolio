@@ -209,4 +209,65 @@ hr {
 }
 
 
-/* ---------- Formación académica ----------- */
+/* ---------- skills ----------- */
+
+.skillsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.progressContainer {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.outerCircleProgress {
+    height: 250px;
+    width: 250px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerCircleProgress {
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 10px -2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillPercentage {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.progressMeter {
+    position: absolute;
+    transform: rotateX(0deg);
+}
+
+.progressColor {
+    fill: none;
+    position: absolute;
+    stroke: url(#GradientColor);
+    stroke-width: 35px;
+    stroke-dasharray: 2680;
+    stroke-dashoffset: 2000;
+    animation: progressAnim 2000ms linear forwards;
+}
+
+@keyframes progressAnim {
+    0% {
+        stroke-dashoffset: 2680;
+    }
+}
